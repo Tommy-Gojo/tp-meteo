@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'roboto';
+    src: url('font/Roboto-Medium.ttf');
+}
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: 'roboto'  ;
+}
+section{
+    background-color: rgb(2, 13, 51);
+    width: 100%;
+    height: 56.5rem;
+    border-radius: 100px ;
+    box-shadow: rgb(2, 13, 51) 0px 22px 70px 4px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+}
+#nomSite{
+    font-size: 4rem;
+    margin-top: 0;
+    width: 100%;
+    color: white;
+}
+p, h2{
+    
+    text-align: center;
+}
+article{
+    padding-top: 5rem ;
+    background-color: white;
+    border-radius: 30px;
+    color: black;
+    width: 30rem;
+}
+input{
+    border: none;
+    border-radius: 5px ;
+    width: 200px;
+    height: 30px;
+    font-size: large;
+    text-align: center;
+    font-family: 'roboto';
+    font-style: inherit; 
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    font-family: 'roboto';
+    color: white;
+    margin: 2rem;
+    background-color: rgb(2, 13, 51);
+    border-radius: 30px;
+}
+#input{  
+    background-color: rgb(2, 13, 51);
+    width: 20rem;
+    text-align: center;
+    height: 3rem;
+    padding-top: 1rem;
+    border-radius: 50px;
+}
+#affichageMeteo{
+    margin-top: 6rem;
+    height: 15rem;
+}
+#leTemps{
+    font-size: 1.5rem ;
+    color: black;
+}
+#colorBlack{
+    background-color: black;
+}
+aside{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    position: absolute;
+    padding-top: 26rem;
+    padding-right: 21rem;
+}
+#icon{
+    width: 10rem;
+    height: 10rem; 
+}
